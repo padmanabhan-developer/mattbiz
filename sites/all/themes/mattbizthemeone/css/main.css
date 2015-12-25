@@ -3,7 +3,7 @@
  */
 .homepage_wrapper {
     /*background-color: #f00;*/
-    height: 100rem;
+    height: 90rem;
     max-width: 100%;
 }
 .vide_block {
@@ -13,8 +13,9 @@
   width: 100%;
   z-index: -2;
 }
-.footer{
+#footer{
   width: 100%;
+  bottom: 0;
 }
 .view .date-nav-wrapper .date-prev{
   left: 0;
@@ -25,4 +26,37 @@
 }
 .monthview{
   height: 9rem !important ;
+}
+.calendar_button{
+  color: #272B30;
+    left: 45%;
+    position: absolute;
+    top: 50%;
+}
+
+.button {
+    font-size: 18px;
+    height: 50px;
+    line-height: 46px;
+    width: 150px;
+}
+.button {
+    border: 2px solid #fff;
+    color: #fff;
+    display: inline-block;
+    font-size: 12px;
+    font-weight: bold;
+    height: 33px;
+    line-height: 29px;
+    text-align: center;
+    text-decoration: none;
+    transition: background 0.2s ease-out 0s, color 0.2s ease-out 0s;
+    width: 100px;
+}
+.button:hover {
+    background: #fff none repeat scroll 0 0;
+    color: #232323;
+}
+.button a{
+  text-decoration: none;
 }

@@ -1,9 +1,10 @@
-name = MattBizThemeONE 
-description = A Kalatheme subtheme powered by Twitter Bootstrap & Science. 
-base theme = kalatheme 
-core = 7.x 
+name = MattBizThemeONE
+description = A Kalatheme subtheme powered by Twitter Bootstrap & Science.
+base theme = kalatheme
+core = 7.x
 
-regions[content] = Content 
+regions[content] = Content
+regions[footer] = Footer
 
-stylesheets[all][] = css/main.css 
+stylesheets[all][] = css/main.css
 

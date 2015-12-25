@@ -213,5 +213,11 @@
 
     </main><!-- /#main -->
   </div> <!-- /#main-wrapper -->
-
+  <div class="container">
+    <div id="footer">
+      <div class="column <?php $no_panels ? print 'container' : ''; ?>">
+        <?php print render($page['footer']); ?>
+      </div>
+    </div>
+  </div> <!--Footer -->
 </div></div> <!-- /#page, /#page-wrapper -->
