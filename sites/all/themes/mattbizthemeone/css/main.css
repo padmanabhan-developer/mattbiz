@@ -1,0 +1,28 @@
+/*!
+ * Kalatheme (http://drupal.org/project/kalatheme)
+ */
+.homepage_wrapper {
+    /*background-color: #f00;*/
+    height: 100rem;
+    max-width: 100%;
+}
+.vide_block {
+  background-color: #ff0;
+  height: 70rem;
+  margin: 0;
+  width: 100%;
+  z-index: -2;
+}
+.footer{
+  width: 100%;
+}
+.view .date-nav-wrapper .date-prev{
+  left: 0;
+  right: auto;
+}
+.calendar_node_item a{
+  color: #272B30;
+}
+.monthview{
+  height: 9rem !important ;
+}
